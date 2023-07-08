@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(257, 40%, 49%);
+   font-family: 'open sons';
+   font-weight: 400;
+}
+
+/* NAV */
+.nav{
+    background-image: url(images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 720px;
+    
+    
+}
+.nav-1 img{
+    margin: 60px;
+}
+
+/* HEADER */
+.header{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 60px;
+}
+.header-1 img{
+    height: 450px;
+}
+
+/* SUPER */
+.super{
+    text-align: start;
+    margin: 50px 60px;
+}
+.super h1{
+    margin-right: 250px;
+    color: #ffff;
+    font-size: 30px;
+    font-family: 'poppins';
+    font-weight: 600;
+}
+.super p{
+    color: #ffff;
+    font-family: 'poppins';
+    font-weight: 300;
+    margin-right: 170px;
+    margin-top: 20px;
+}
+
+/* SELECT */
+.select{
+    margin:20px 0;
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+    background-color: hsl(300, 69%, 71%);
+    border: none;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.2), 0 6px 20px 0 rgb(0, 0, 0, 0.19);
+    color: #ffff;
+    font-size: 10px;
+}
+.select:hover{
+    background-color: #eb4c67;
+}
+
+
+/* COL */
+.col{
+    display: flex;
+    justify-content: center;
+    text-align: right;
+    margin-left: 710px;
+}
+
+.col i{
+    width: 35px;
+    border: 2px solid white;
+    border-radius: 50%;
+    color: #ffff;
+    padding: 10px;
+    height: 35px;
+    margin: 0 10px;
+    text-align: center;
+}
+.col i:hover{
+    border-radius: 50%;
+    border: 2px solid #eb4c67;
+    color: #eb4c67;
+}
+
+/* @MEDIA */
+@media (max-width: 500px) {
+    /* NAV */
+    .nav-1 img{
+        margin: 30px 20px;
+        width: 180px;
+    }
+    /* HEADER */
+    .header{
+        display: block;
+        margin: 20px;
+
+    }
+    .header-1 img{
+        width: 350px;
+        height: 300px;
+    }
+
+    /* SUPER */
+    .super{
+        margin: 0;
+        text-align: center;
+    }
+    .super h1{
+        margin: 40px 0 0;
+    }
+    .super p{
+        margin: 20px 5px 0;
+    }
+
+    /*  SELECT */
+    .select{
+        width: 200px;
+        height: 40px;
+        font-size: 17px;
+    }
+
+    /*  COL */
+    .col{
+        text-align: center;
+        margin: 0;
+        padding: 0 0 20px 0;
+    }
+}
